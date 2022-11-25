@@ -1,0 +1,56 @@
+.app-left-side {
+  display: flex;
+}
+
+.more-cards-container {
+  position: relative;
+}
+
+.page {
+  background-image: linear-gradient(
+    rgb(35, 29, 43) rgb(32, 30, 43),
+    rgb(25, 26, 36)
+  );
+}
+
+.final-result {
+  width: 50%;
+  padding: 20px;
+  border: 5px white dashed;
+  border-radius: 20px;
+  position: absolute;
+  top: 190%;
+  left: 25%;
+  background-color: rgb(96, 21, 17);
+}
+
+.card-ready {
+  padding-bottom: 1rem;
+  color: white;
+  font-size: 2rem;
+}
+.cards-arsenal-wrap {
+  position: absolute;
+  left: 6.2rem;
+  top: 10px;
+  z-index: 100;
+}
+
+@media screen and (max-width: 700px) {
+  .final-result {
+    width: 100%;
+    left: 0;
+  }
+
+  .cards-arsenal-wrap {
+    left: 4rem;
+    top: 0;
+  }
+}
+
+.feature-bg {
+  background-image: linear-gradient(
+    rgb(35, 29, 43) rgb(32, 30, 43),
+    rgb(25, 26, 36)
+  );
+}

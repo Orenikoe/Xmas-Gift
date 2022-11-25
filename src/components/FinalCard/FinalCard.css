@@ -1,0 +1,19 @@
+.icon-wrap {
+  padding: 5px;
+  background-color: lightblue;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.final-card {
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+  background-size: cover;
+  border: 2px white dashed;
+  width: 50%;
+}
+
+.final-img {
+  width: 100%;
+}

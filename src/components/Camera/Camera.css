@@ -1,0 +1,89 @@
+.webcam-container {
+  width: 100%;
+  min-height: 150vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.webcam {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.video-webcam {
+  width: 100%;
+  height: auto;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.camera-button {
+  margin-right: 2rem;
+}
+
+.refresh-button,
+.camera-button {
+  background-color: transparent;
+  border: none;
+}
+
+.camera-icon,
+.refresh-icon {
+  width: 50px;
+  height: auto;
+  color: #4fed9a;
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 750px) {
+  .webcam-container {
+    min-height: 100vh;
+    padding-right: 20px;
+  }
+
+  .camera-icon,
+  .refresh-icon {
+    margin-top: 10px;
+    width: 40px;
+  }
+}
+
+.webcam-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.webcam-title {
+  color: var(--Soft_red);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 2rem;
+  display: inline-block;
+  padding-top: 2rem;
+}
+
+.christmas-gift {
+  width: 300px;
+  height: auto;
+}
+
+@media screen and (max-width: 750px) {
+  .webcam-title {
+    padding-top: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .christmas-gift {
+    width: 200px;
+  }
+}

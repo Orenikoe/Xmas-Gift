@@ -1,0 +1,9 @@
+.app-parent {
+  background-image: url("https://wallpaperaccess.com/full/139546.jpg");
+  width: 100%;
+  display: flex;
+}
+
+#root {
+  width: 100%;
+}
